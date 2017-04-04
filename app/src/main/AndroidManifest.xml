@@ -15,18 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Nokia"
-            android:label="@string/title_activity_nokia"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".iPhone"
-            android:label="@string/title_activity_i_phone"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SonyErickson"
-            android:label="@string/title_activity_sony_erickson"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Nokia" />
+        <activity android:name=".iPhone" />
+        <activity android:name=".SonyErickson"></activity>
     </application>
 
 </manifest>
